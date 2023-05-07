@@ -1,0 +1,80 @@
+@import "header.css";
+@import "global.css";
+@import "footer.css";
+
+h1 {
+    margin-top: 100px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 49px;
+    line-height: 120%;
+    text-align: center;
+    color: black;
+}
+
+.retangulo h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 120%;
+    color: #D9D9D9;
+    text-align: center;
+}
+
+.retangulo{
+    margin-left: 29%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: #7B167D;
+    width: 312px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.retangulo-menor h4{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #D9D9D9;
+    text-align: center;
+}
+
+.retangulo-menor {
+    margin-top: 5%;
+    margin-right: 5%;
+    background-color: #7B167D;
+    width: 216px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.retangulo-container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.btn-vermais{
+    margin-top: 5%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    line-height: 120%;
+    color: #D9D9D9;
+    background-color: #510074;
+    width: 97px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.btn-vermais:hover {
+    background-color: #9932CC;
+}
