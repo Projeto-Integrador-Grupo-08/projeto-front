@@ -1,6 +1,70 @@
-.container{
-    width: 100%;
-    max-width: 1224;
-    margin: 0 auto;
-    padding: 0px 16px;
+.container {
+  max-width: 1224px;
+  margin: 0 auto;
+  padding: 0px 16px;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+section {
+  margin-top: 100px;
+}
+
+.sus {
+  margin: 0 auto;
+  width: 1224px;
+}
+.tudo {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+}
+.label_input {
+  margin-right: 50px;
+  font-size: 30px;
+  display: block;
+}
+.input {
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 8px;
+  width: 90%;
+  background-color: #d9d9d9;
+  height: 50px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+}
+h1 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 120%;
+  text-align: center;
+  color: black;
+}
+.d-flex {
+  display: flex;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  font-size: 30px;
+  height: 60px;
+  border-radius: 5px;
+  width: 50%;
+  background-color: #510074;
+  color: #fff;
 }

@@ -1,0 +1,10 @@
+@import "header.css";
+@import "global.css";
+@import "footer.css";
+
+.numero {
+  width: 20%;
+}
+.descricao {
+  width: 50%;
+}
