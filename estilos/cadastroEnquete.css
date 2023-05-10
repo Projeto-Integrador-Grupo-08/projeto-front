@@ -2,9 +2,12 @@
 @import "global.css";
 @import "footer.css";
 
-.numero {
-  width: 20%;
-}
 .descricao {
-  width: 50%;
+  width: 100%;
+}
+.space {
+  margin-top: 100px;
+}
+.b-space {
+  margin-bottom: 50px;
 }
