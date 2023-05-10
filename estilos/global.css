@@ -6,6 +6,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  box-sizing: border-box;
 }
 section {
   margin-top: 100px;
@@ -16,14 +17,13 @@ section {
   width: 1224px;
 }
 .tudo {
-  margin-top: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: space-between;
+  gap: 30px;
 }
 .label_input {
-  margin-right: 50px;
   font-size: 30px;
   display: block;
 }
@@ -31,11 +31,10 @@ section {
   padding: 5px;
   font-size: 20px;
   border-radius: 8px;
-  width: 90%;
+
+  width: 100%;
   background-color: #d9d9d9;
   height: 50px;
-  margin-right: 50px;
-  margin-bottom: 100px;
 }
 h1 {
   font-family: "Roboto";
@@ -67,4 +66,8 @@ h1 {
   width: 50%;
   background-color: #510074;
   color: #fff;
+  margin-top: 100px;
+}
+.descricao {
+  width: 100%;
 }

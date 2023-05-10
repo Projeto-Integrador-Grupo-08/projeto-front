@@ -2,8 +2,14 @@
 @import "global.css";
 @import "footer.css";
 
+.op {
+  width: 100%;
+  gap: 30px;
+  justify-content: center;
+}
+
 .space {
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .b-space {
   margin-bottom: 50px;
