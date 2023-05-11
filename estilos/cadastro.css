@@ -25,16 +25,14 @@ form {
 
 .form-group input {
     border: 1px solid #ddd;
+    margin-left: 4px;
+    margin-right: 4px;
     border-radius: 10px;
     padding: 10px;
     width: 520px;
     font-size: 16px;
     color: #333;
     margin-bottom: 2px;
-}
-
-.form-group input:not(:last-child) {
-    margin-right: 10px;
 }
 
 input[type="submit"] {
@@ -58,4 +56,28 @@ input[type="submit"]:hover {
 
 input[type="submit"]:focus {
     outline: none;
+}
+
+.password-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.sus{
+    position: relative;
+}
+
+.password-icon i {
+    position: absolute;
+    right: 30px;
+    bottom: -10px;
+    font-size: 24px;
+    color: #ddd;
+}
+
+.password-icon i:hover {
+    color: #333;
 }

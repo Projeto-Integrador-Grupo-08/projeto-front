@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="../estilos/reset.css">
     <link rel="stylesheet" href="../estilos/login.css">
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <title>Login</title>
 </head>
 <body>
@@ -18,10 +20,10 @@
             <nav>
                 <ul>
                     <a href=""><img src="../imagens/Logo.png"></a>
-                    <li><a href="">Descobrir</a></li>
+                    <li><a href="descobrir.html">Descobrir</a></li>
                     <li><a href="">Minha Conta</a></li>
-                    <li><a href="">Cadastrar</a></li>
-                    <li><a href="">Login</a></li>
+                    <li><a href="cadastro.html">Cadastrar</a></li>
+                    <li><a href="login.html">Login</a></li>
                 </ul>
             </nav>
 
@@ -37,8 +39,9 @@
                     <div class="form-group">
                         <input type="text" placeholder="Nome">
                     </div>
-                    <div class="form-group">
-                        <input type="password" placeholder="Senha">
+                    <div class="form-group password-group sus">
+                        <input type="password" id="senha" placeholder="Senha">
+                        <span class="password-icon"><i class="material-icons" id="olho" onclick="togglePassword()">visibility</i></span>
                     </div>
                 </div>
                 
@@ -53,6 +56,8 @@
             </form>
         </div>
     </section>
+
+    <script src="../script/script.js"></script>
 
 </body>
 </html>
