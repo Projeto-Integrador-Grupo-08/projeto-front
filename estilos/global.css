@@ -71,3 +71,6 @@ h1 {
 .descricao {
   width: 100%;
 }
+.bo-re {
+  border-radius: 8px;
+}
