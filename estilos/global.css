@@ -1,12 +1,15 @@
 .container {
-  max-width: 1224px;
-  margin: 0 auto;
+  /* max-width: 1224px; */
+  /* margin: 0 auto; */
   padding: 0px 16px;
 }
 body {
+  overflow-x: hidden;
+  /* letter-spacing: 1px; */
   width: 100vw;
   height: 100vh;
   box-sizing: border-box;
+  background-color: #F0FFFF;
 }
 section {
   margin-top: 100px;

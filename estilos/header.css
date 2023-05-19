@@ -23,6 +23,7 @@ header .container nav{
 
 header .container nav ul{
     display: flex;
+    justify-content: end;
     align-items: center;
     gap: 58px;
 }
@@ -47,6 +48,9 @@ header img{
 
 header img:hover{
     color: #F9F9F9;
+}
+.d{
+    margin-left: 130px;
 }
 
 /* header { 
