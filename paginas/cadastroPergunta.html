@@ -8,17 +8,18 @@
 
     <link rel="stylesheet" href="../estilos/reset.css" />
     <link rel="stylesheet" href="../estilos/cadastroPergunta.css" />
+    <link rel="icon" href="../../imagens/Logo.png">
   </head>
   <body>
     <header>
       <div class="container">
         <nav>
-          <ul>
-            <a href=""><img src="../imagens/Logo.png" /></a>
-            <li><a href="">Descobrir</a></li>
-            <li><a href="">Minha Conta</a></li>
-            <li><a href="">Cadastrar</a></li>
-            <li><a href="">Login</a></li>
+          <a class="d" href=""><img src="../imagens/Logo.png" /></a>
+          <ul>      
+            <li><a href="/paginas/descobrir.html">Descobrir</a></li>
+            <li><a href="/paginas/minhaConta.html">Minha Conta</a></li>
+            <li><a href="/paginas/cadastroEnquete.html">Cadastrar</a></li>
+            <li><a href="/paginas/login.html">Login</a></li>
           </ul>
         </nav>
       </div>
@@ -27,7 +28,7 @@
     <section>
       <div class="sus">
         <h1>Cadastrar Pergunta</h1>
-        <form>
+        <form action="/paginas/descobrir.html">
           <div class="d-flex tudo space">
             <div class="colunm">
               <span class="label_input">Numero</span>
@@ -57,7 +58,7 @@
             </div>
           </div>
           <div class="center">
-            <button class="btn">Cadastrar</button>
+            <button class="btn m" >Cadastrar</button>
           </div>
         </form>
       </div>
