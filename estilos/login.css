@@ -103,6 +103,7 @@ form {
 
 .sus{
     position: relative;
+margin-bottom: 90px;
 }
 
 .password-icon i {
@@ -115,4 +116,45 @@ form {
 
 .password-icon i:hover {
     color: #333;
+}
+.empresa{
+    position: relative;
+    width:300px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: #9932CC;
+   
+}
+.empresa a{
+    position: absolute;
+
+    color: #fff;
+    left: 100px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+.acessar{
+    position: relative;
+    width: 300px;
+    height: 70px;
+    border-radius: 8px;
+    background-color: #9932CC;
+}
+
+.acessar a{
+    position: absolute;
+    top: 11px;
+    left: 100px;
+    
+    font-size: 30px;
+    color: #fff;
+
+}
+.c{
+    align-items: center;
+
+}
+.fg{
+    gap: 100px;
+    display: flex;
 }
